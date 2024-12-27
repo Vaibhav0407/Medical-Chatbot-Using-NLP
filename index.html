@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+            </style>
+            
+            <link rel="stylesheet" href="/static/style.css">
+            <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">  
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Outfit:wght@100..900&family=Syne:wght@400..800&display=swap');
+            </style>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </head>
+
+
+
+
+<body>
+    <script src="{{ url_for('static', filename='Untitled-1.js') }}"></script>
+
+
+    <nav class="pl-5 ml-5 navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><h1 class="navbarhead" onclick="backToHome()">Medix</h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto pl-auto">
+            <a class="nav-link " href="#section1">Home</a>
+            <a class="nav-link " href="#section2" >About</a>
+            <a class="nav-link " href="#section3" >Algorithms</a>
+          </div>
+        </div>
+      </nav>
+
+   
+        <div id="section1">
+        <div  class="d-flex flex-row justify-content-center">
+                
+            <div><h1 class="section1head">Welcome to Our Medical Chat</h1>
+                <p class="section1para">Discover our cutting-edge medical AI chatbot, designed to provide personalized healthcare solutions</p>
+                <button class="btnmain" onclick="goToSection4()">Get Started</button>
+                </div>
+                <div>
+                    <img src="https://cdn-imgs.dora.run/design/GjkphKuSBePJq5xA01GL3R.webp/w/4096/h/4096/format/webp?" class="firstpageimg">
+                </div>
+        </div>
+    </div>
+
+        
+    
+
+
+<div id="section2">
+
+            <div class="vrio d-flex justify-content-end section2">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-md-6 order-md-2 d-flex justify-content-center" >
+                            <img class="section2img" src="https://cdn-imgs.dora.run/design/GMAZL8n2JfWH0MhNH6CN92.webp/w/4096/h/4096/format/webp?">
+                        </div>
+                        <div class="col-12 col-md-6 p-5 order-1 d-flex justify-content-center">
+                            <div>
+                            <h1 class="section1head" style="font-size: 41px;"> Revolutionizing Healthcare through Innovative AI</h1>
+                            <p class="section1para">Our state-of-the-art medical AI chatbot offers a comprehensive suite of features to address your healthcare concerns</p>
+                            <button class="btnmain"> Read More</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vrio d-flex justify-content-around">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-md-6 order-1 d-flex justify-content-center">
+                            <img class="section2img" src="https://cdn-imgs.dora.run/design/GtQ5dLx1cGoG3YxF1VNGBd.webp/w/4096/h/4096/format/webp?">
+                        </div>
+                        <div class="col-12 col-md-6 p-5 order-2 d-flex justify-content-center">
+                           <div> <h1 class="section1head" style="font-size: 41px;">Empowering Patients with Cutting-Edge</h1>
+                            <p class="section1para">At the heart of our medical AI chatbot lies a commitment to empowering patients and revolutionizing the healthcare industry</p>
+                            <button class="btnmain"> Read More</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            
+               
+ </div>
+
+
+
+        <div id="section3">
+
+            <div class="vrio">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 order-md-2">
+                            <img class="section2img" src="https://cdn-imgs.dora.run/design/IanwhDDkfTYGiNNY0OXkpo.webp/w/4096/h/4096/format/webp?">
+                        </div>
+                        <div class="col-12 col-md-6 p-5 order-1">
+                            <h1 class="section1head" style="font-size: 41px;"> Revolutionizing Healthcare through Innovative AI</h1>
+                            <p>Our state-of-the-art medical AI chatbot offers a comprehensive suite of features to address your healthcare concerns</p>
+                            <button class="btnmain"> Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vrio">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 order-1">
+                            <img class="section2img" src="https://cdn-imgs.dora.run/design/IRE9HC41zuyKl5jnmgLfq8.webp/w/4096/h/4096/format/webp?">
+                        </div>
+                        <div class="col-12 col-md-6 p-5 order-2">
+                            <h1 class="section1head" style="font-size: 41px;">Understanding The Algorithms</h1>
+                            <p class="section1para"></p>
+                            <button class="algobtn">Click to see the Algorithms</button>
+                            <button class="algobtn">Click to see the Flowcharts</button>
+                            <button class="algobtn">Click to see the Backend</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+               
+        </div>
+
+
+
+<div id="section4" style="display: none;">
+    
+    <div class="chat-container">
+                    <div class="chat-header">Chat Interface</div>
+
+                    <div id="chat-messages"  class="chat-messages bg-dark">
+                        <div class="message bot-message">Hello! How can I help you?</div>
+                    <div class="d-flex flex-column justify-content-end">    
+                        <div class="message user-message ">Hi! I have a question about Medics.</div>
+                    </div>
+                    </div>
+
+                    <div class="chat-input bg-secondary">
+                        <input type="text" id="user-input" placeholder="Type your message..."></input>
+
+                        
+                        <button id="send-btn">Send</button>
+                        
+                    </div>
+    </div>
+    <script src="{{ url_for('static', filename='Untitled-1.js') }}"></script>
+</div><button class="btnmain" onclick="goToSection4()">Get Started</button>
+<script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+<script>
+    // JavaScript function to show specific sections
+    function showSection(sectionId) {
+        document.getElementById(sectionId).style.display = 'block';
+    }
+
+    // Ensure sections 1 and 2  and 3 are already visible
+    window.onload = () => {
+        document.getElementById('section1').style.display = 'block';
+        document.getElementById('section2').style.display = 'block';
+        document.getElementById('section3').style.display = 'block';
+    };
+</script>
+
+<script>
+    // Function to go to Section 4
+    function goToSection4() {
+        document.getElementById('section1').style.display = 'none';
+        document.getElementById('section2').style.display = 'none';
+        document.getElementById('section3').style.display = 'none';
+        document.getElementById('section4').style.display = 'block';
+        document.getElementById('go-to-section4').style.display = 'none';
+        document.getElementById('back-to-home').style.display = 'inline-block';
+    }
+
+    // Function to go back to Home (show Section 1 and Section 2 and section3)
+    function backToHome() {
+        document.getElementById('section1').style.display = 'block';
+        document.getElementById('section2').style.display = 'block';
+        document.getElementById('section3').style.display = 'block';
+        document.getElementById('section4').style.display = 'none';
+        document.getElementById('go-to-section4').style.display = 'inline-block';
+        document.getElementById('back-to-home').style.display = 'none';
+    }
+</script>
+
+</body>
+</html>

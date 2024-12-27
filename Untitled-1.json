@@ -1,0 +1,3651 @@
+{
+  "diseases": [
+      {
+          "name": "Covid-19",
+          "type": "Infectious",
+          "symptoms": [
+              "fever",
+              "Persistent cough",
+              "shortness of breath",
+              "Persistent fatigue",
+              "muscle ache",
+              "headache",
+              "loss of taste",
+              "loss of smell",
+              "sore throat",
+              "congestion",
+              "runny nose",
+              "nausea",
+              "vomiting",
+              "diarrhea"
+          ],
+          "causes": "Infection with SARS-CoV-2 virus",
+          "treatment": "Vaccination, antiviral medications (e.g., Remdesivir), supportive care",
+          "cure": "No definitive cure, but vaccines and treatments reduce severity",
+          "prevention": "Vaccination, wearing a mask, social distancing, hand hygiene",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Influenza (flu)",
+          "type": "Infectious",
+          "symptoms": [
+              "fever",
+              "chills",
+              "body ache",
+              "Persistent cough",
+              "headache",
+              "sore throat",
+              "runny nose",
+              "stuffy nose",
+              "Persistent fatigue",
+              "weakness",
+              "nausea",
+              "vomiting"
+          ],
+          "causes": "Infection with influenza virus",
+          "prevention": "Vaccination, hand hygiene, avoiding close contact with sick individuals",
+          "treatment": "Vaccination, antiviral drugs (e.g., Tamiflu), rest, and hydration",
+          "cure": "No cure, but symptoms usually resolve on their own; vaccines prevent severe cases",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Arthritis",
+          "type": "Chronic",
+          "symptoms": [
+              "joint pain",
+              "stiffness",
+              "swelling",
+              "redness",
+              "limited range of motion"
+          ],
+          "causes": "Inflammation of joints, often due to autoimmune disorders or wear and tear",
+          "prevention": "Healthy weight management, regular exercise, avoiding joint strain",
+          "treatment": "Pain relief medications, anti-inflammatory drugs, physical therapy, surgery in some cases",
+          "cure": "No cure, but symptoms can be managed with medications and therapy",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Chronic kidney disease",
+          "type": "Chronic",
+          "symptoms": [
+              "Persistent fatigue",
+              "shortness of breath",
+              "swelling",
+              "loss of appetite",
+              "nausea",
+              "vomiting",
+              "decreased urine output"
+          ],
+          "causes": "Damage to the kidneys, often due to diabetes, high blood pressure, or other underlying conditions",
+          "prevention": "Managing underlying conditions, maintaining a healthy lifestyle, regular checkups",
+          "treatment": "Dialysis, medications to control blood pressure, kidney transplant",
+          "cure": "No cure, but manageable with treatment; transplant is an option for some",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Alzheimer's disease",
+          "type": "Chronic",
+          "symptoms": [
+              "memory loss",
+              "confusion",
+              "difficulty with language",
+              "changes in behavior",
+              "personality changes"
+          ],
+          "causes": "Unknown, but likely involves a combination of genetic, environmental, and lifestyle factors",
+          "prevention": "Healthy lifestyle, cognitive stimulation, social engagement",
+          "treatment": "Medications to manage symptoms, supportive care",
+          "cure": "No cure, but treatments can slow progression and manage symptoms",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Tuberculosis",
+          "type": "Infectious",
+          "symptoms": [
+              "persistent cough",
+              "chest pain",
+              "coughing up blood",
+              "Persistent fatigue",
+              "weight loss",
+              "fever",
+              "night sweats"
+          ],
+          "causes": "Infection with Mycobacterium tuberculosis bacteria",
+          "treatment": "Antibiotic treatment (e.g., Rifampin, Isoniazid)",
+          "cure": "Curable with proper treatment over several months",
+          "prevention": "Vaccination (BCG vaccine), avoiding close contact with infected individuals",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Diabetes type 2",
+          "type": "Chronic",
+          "symptoms": [
+              "increased thirst",
+              "frequent urination",
+              "increased hunger",
+              "unintended weight loss",
+              "Persistent fatigue",
+              "blurred vision",
+              "slow-healing sores"
+          ],
+          "causes": "Body's inability to use insulin properly",
+          "treatment": "Lifestyle changes, blood sugar monitoring, medication (e.g., Metformin), insulin therapy",
+          "cure": "No cure, but manageable through medication and lifestyle changes",
+          "prevention": "Healthy diet, regular physical activity, maintaining a healthy weight",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Asthma",
+          "type": "Chronic",
+          "symptoms": [
+              "shortness of breath",
+              "chest tightness",
+              "wheezing",
+              "coughing (especially at night)"
+          ],
+          "causes": "Inflammation and narrowing of airways due to environmental triggers (e.g., pollen, dust) or genetic factors",
+          "treatment": "Inhalers (bronchodilators, corticosteroids), avoiding triggers, oral medications",
+          "cure": "No cure, but symptoms can be managed",
+          "prevention": "Avoiding allergens, regular use of controller medications",
+          "risk_factors": [
+              "Family history",
+              "Allergies",
+              "Smoking",
+              "Air pollution"
+          ],
+          "complications": [
+              "Chronic cough",
+              "Respiratory infections"
+          ],
+          "icd_code": "J45",
+          "regions_prevalent": [
+              "Urban areas",
+              "Industrial regions"
+          ],
+          "mortality_rate": "Low with treatment",
+          "triggers": [
+              "Pollen",
+              "Dust mites",
+              "Exercise",
+              "Cold air"
+          ]
+      },
+      {
+          "name": "Hypertension (high blood pressure)",
+          "type": "Chronic",
+          "symptoms": [
+              "often asymptomatic",
+              "headache",
+              "shortness of breath",
+              "nosebleed"
+          ],
+          "causes": "Various factors including poor diet, lack of physical activity, genetics, and stress",
+          "treatment": "Lifestyle changes (healthy diet, exercise), blood pressure-lowering medications (e.g., ACE inhibitors, diuretics)",
+          "cure": "No cure, but controllable with treatment",
+          "prevention": "Healthy lifestyle, regular physical activity, low sodium intake",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Migraine",
+          "type": "Neurological",
+          "symptoms": [
+              "throbbing headache",
+              "nausea",
+              "sensitivity to light",
+              "sensitivity to sound",
+              "visual disturbances (auras)"
+          ],
+          "causes": "Genetic and environmental factors, hormonal changes, stress, lack of sleep, certain foods or drinks",
+          "treatment": "Pain relief medications (e.g., triptans, NSAIDs), preventive medications (e.g., beta-blockers), lifestyle changes",
+          "cure": "No cure, but symptoms can be managed",
+          "prevention": "Avoiding known triggers, regular sleep schedule, stress management",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Parkinson's disease",
+          "type": "Neurological",
+          "symptoms": [
+              "tremors",
+              "slowed movement",
+              "muscle stiffness",
+              "impaired posture and balance",
+              "speech and writing changes"
+          ],
+          "causes": "Loss of dopamine-producing brain cells, likely due to a combination of genetic and environmental factors",
+          "treatment": "Medications to improve motor symptoms (e.g., Levodopa), physical therapy, deep brain stimulation",
+          "cure": "No cure, but symptoms can be managed",
+          "prevention": "No known prevention, but healthy lifestyle may help reduce risk",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Hepatitis b",
+          "type": "Infectious",
+          "symptoms": [
+              "Persistent fatigue",
+              "nausea",
+              "vomiting",
+              "abdominal pain",
+              "dark urine",
+              "jaundice"
+          ],
+          "causes": "Infection with the Hepatitis B virus",
+          "treatment": "Antiviral medications, liver transplantation in severe cases",
+          "cure": "No definitive cure, but treatment can reduce symptoms and liver damage",
+          "prevention": "Vaccination, avoiding contact with infected blood or bodily fluids",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Multiple sclerosis (ms)",
+          "type": "Neurological",
+          "symptoms": [
+              "numbness or weakness in limbs",
+              "vision problems",
+              "Persistent fatigue",
+              "tingling or pain",
+              "lack of coordination"
+          ],
+          "causes": "Autoimmune attack on the central nervous system",
+          "treatment": "Medications to slow progression (e.g., corticosteroids, immunotherapy), physical therapy",
+          "cure": "No cure, but symptoms can be managed",
+          "prevention": "No known prevention",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Celiac disease",
+          "type": "Autoimmune",
+          "symptoms": [
+              "abdominal pain",
+              "diarrhea",
+              "bloating",
+              "Persistent fatigue",
+              "weight loss",
+              "iron deficiency anemia"
+          ],
+          "causes": "Immune reaction to gluten",
+          "treatment": "Strict gluten-free diet",
+          "cure": "No cure, but symptoms can be managed with a gluten-free diet",
+          "prevention": "Avoiding gluten-containing foods",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Chronic obstructive pulmonary disease (copd)",
+          "type": "Chronic",
+          "symptoms": [
+              "shortness of breath",
+              "wheezing",
+              "chronic cough",
+              "mucus production",
+              "Persistent fatigue"
+          ],
+          "causes": "Long-term exposure to irritants like tobacco smoke, air pollution",
+          "treatment": "Bronchodilators, corticosteroids, oxygen therapy",
+          "cure": "No cure, but symptoms can be managed",
+          "prevention": "Avoid smoking, reduce exposure to lung irritants",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Liver cirrhosis",
+          "type": "Chronic",
+          "symptoms": [
+              "Persistent fatigue",
+              "easy bruising",
+              "jaundice",
+              "swelling in legs",
+              "confusion",
+              "eeight loss"
+          ],
+          "causes": "Chronic liver damage, often due to alcohol abuse or hepatitis",
+          "treatment": "Lifestyle changes, medications, liver transplant in severe cases",
+          "cure": "No cure, but progression can be slowed",
+          "prevention": "Avoid excessive alcohol, hepatitis vaccination",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Lyme disease",
+          "type": "Infectious",
+          "symptoms": [
+              "fever",
+              "chills",
+              "headache",
+              "Persistent fatigue",
+              "bull's-eye rash",
+              "joint pain",
+              "neurological problems"
+          ],
+          "causes": "Bacteria transmitted through tick bites",
+          "treatment": "Antibiotics",
+          "cure": "Curable with early antibiotic treatment",
+          "prevention": "Avoid tick bites, use tick repellents",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Aids",
+          "type": "Infectious",
+          "symptoms": [
+              "fever",
+              "chills",
+              "night sweats",
+              "Persistent fatigue",
+              "swollen lymph nodes",
+              "weight loss",
+              "recurrent infections"
+          ],
+          "causes": "Infection with the Human Immunodeficiency Virus (HIV)",
+          "treatment": "Antiretroviral therapy (ART)",
+          "cure": "No cure, but ART can control the virus",
+          "prevention": "Safe sex practices, avoiding sharing needles",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Irritable bowel syndrome (ibs)",
+          "type": "Chronic",
+          "symptoms": [
+              "abdominal pain",
+              "bloating",
+              "diarrhea",
+              "constipation"
+          ],
+          "causes": "Exact cause unknown, but related to gut-brain interactions",
+          "treatment": "Dietary changes, medications for symptom relief",
+          "cure": "No cure, but symptoms can be managed",
+          "prevention": "Stress management, healthy diet",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Ebola virus disease",
+          "type": "Infectious",
+          "symptoms": [
+              "fever",
+              "severe headache",
+              "muscle pain",
+              "weakness",
+              "Persistent fatigue",
+              "diarrhea",
+              "vomiting",
+              "abdominal pain",
+              "unexplained bleeding"
+          ],
+          "causes": "Infection with Ebola virus",
+          "treatment": "Supportive care, experimental treatments",
+          "cure": "No definitive cure, but treatments can improve survival",
+          "prevention": "Avoiding contact with infected individuals and animals",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Chikungunya",
+          "type": "Infectious",
+          "symptoms": [
+              "fever",
+              "joint pain",
+              "muscle pain",
+              "headache",
+              "Persistent fatigue",
+              "rash"
+          ],
+          "causes": "Virus transmitted by mosquito bites",
+          "treatment": "Supportive care (rest, hydration, pain relief)",
+          "cure": "No cure, but symptoms resolve over time",
+          "prevention": "Avoid mosquito bites, use repellents",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Epilepsy",
+          "type": "Neurological",
+          "symptoms": [
+              "seizures",
+              "temporary confusion",
+              "loss of consciousness",
+              "uncontrolled movements"
+          ],
+          "causes": "Abnormal brain activity, can be genetic or due to injury",
+          "treatment": "Anti-seizure medications, surgery in some cases",
+          "cure": "No cure, but seizures can be controlled",
+          "prevention": "No definitive prevention, but managing triggers helps",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Dengue fever",
+          "type": "infectious",
+          "symptoms": [
+              "high fever",
+              "severe headache",
+              "pain behind the eyes",
+              "joint and muscle pain",
+              "rash",
+              "mild bleeding"
+          ],
+          "causes": "virus transmitted by mosquito bites",
+          "treatment": "supportive care, hydration, pain relievers",
+          "cure": "no cure, but symptoms usually resolve",
+          "prevention": "avoid mosquito bites, use repellents",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Crohn's disease",
+          "type": "chronic",
+          "symptoms": [
+              "diarrhea",
+              "abdominal pain",
+              "Persistent fatigue",
+              "weight loss",
+              "fever",
+              "blood in stool"
+          ],
+          "causes": "inflammation of the digestive tract, possibly autoimmune",
+          "treatment": "anti-inflammatory medications, surgery in severe cases",
+          "cure": "no cure, but symptoms can be managed",
+          "prevention": "no definitive prevention, but a healthy lifestyle may reduce risk",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Rheumatoid arthritis",
+          "type": "autoimmune",
+          "symptoms": [
+              "joint pain",
+              "swelling",
+              "stiffness",
+              "Persistent fatigue",
+              "fever",
+              "weight loss"
+          ],
+          "causes": "immune system attacks joint tissues",
+          "treatment": "anti-inflammatory drugs, immunosuppressants, physical therapy",
+          "cure": "no cure, but symptoms can be managed with treatment",
+          "prevention": "no known prevention, but managing risk factors helps",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Ulcerative colitis",
+          "type": "chronic",
+          "symptoms": [
+              "diarrhea with blood or pus",
+              "abdominal pain",
+              "weight loss",
+              "Persistent fatigue",
+              "fever",
+              "urge to defecate"
+          ],
+          "causes": "inflammation of the colon and rectum, possibly autoimmune",
+          "treatment": "anti-inflammatory drugs, immunosuppressants, surgery in severe cases",
+          "cure": "no cure, but symptoms can be managed",
+          "prevention": "no definitive prevention, but a healthy lifestyle may reduce risk",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Psoriasis",
+          "type": "autoimmune",
+          "symptoms": [
+              "red patches of skin with silvery scales",
+              "dry cracked skin",
+              "itching or soreness",
+              "thickened or ridged nails",
+              "swollen joints"
+          ],
+          "causes": "immune system triggers rapid skin cell production",
+          "treatment": "topical treatments, light therapy, medications",
+          "cure": "no cure, but treatment can manage flare-ups",
+          "prevention": "no known prevention, but managing stress and triggers helps",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Sleep apnea",
+          "type": "chronic",
+          "symptoms": [
+              "loud snoring",
+              "episodes of stopped breathing during sleep",
+              "gasping for air during sleep",
+              "morning headache",
+              "daytime fatigue"
+          ],
+          "causes": "blocked airways during sleep, often due to obesity or structural issues",
+          "treatment": "continuous positive airway pressure (cpap), weight loss, surgery",
+          "cure": "no cure, but symptoms can be managed",
+          "prevention": "maintaining a healthy weight, avoiding alcohol before bedtime",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Vertigo",
+          "type": "neurological",
+          "symptoms": [
+              "spinning sensation",
+              "loss of balance",
+              "nausea",
+              "vomiting",
+              "headache"
+          ],
+          "causes": "inner ear problems or brain conditions",
+          "treatment": "vestibular rehabilitation, medications, surgery in some cases",
+          "cure": "treatment depends on the cause, but some cases resolve over time",
+          "prevention": "managing risk factors like infections or injuries",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Hypertension",
+          "type": "chronic",
+          "symptoms": [
+              "headache",
+              "shortness of breath",
+              "nosebleeds",
+              "dizziness",
+              "blurred vision"
+          ],
+          "causes": "high blood pressure due to various factors such as genetics, poor diet, or lack of exercise",
+          "treatment": "blood pressure medications, lifestyle changes",
+          "cure": "no cure, but can be managed with treatment",
+          "prevention": "healthy diet, regular exercise, stress management",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Eczema",
+          "type": "chronic",
+          "symptoms": [
+              "itchy skin",
+              "red or brown patches",
+              "dry and scaly skin",
+              "blisters"
+          ],
+          "causes": "overactive immune response often triggered by allergens or irritants",
+          "treatment": "moisturizers, topical corticosteroids, antihistamines",
+          "cure": "no cure, but symptoms can be managed",
+          "prevention": "avoiding known triggers, keeping skin moisturized",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Migraine",
+          "type": "neurological",
+          "symptoms": [
+              "severe headache",
+              "nausea",
+              "sensitivity to light",
+              "sensitivity to sound",
+              "visual disturbances"
+          ],
+          "causes": "genetic and environmental factors, stress, certain foods or medications",
+          "treatment": "pain relievers, anti-nausea medications, lifestyle changes",
+          "cure": "no cure, but symptoms can be managed",
+          "prevention": "avoiding triggers, stress management",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Osteoporosis",
+          "type": "chronic",
+          "symptoms": [
+              "bone fractures",
+              "back pain",
+              "loss of height",
+              "stooped posture"
+          ],
+          "causes": "weakening of bones due to aging, hormonal changes, or calcium deficiency",
+          "treatment": "medications to strengthen bones, calcium and vitamin d supplements",
+          "cure": "no cure, but progression can be slowed",
+          "prevention": "regular exercise, adequate intake of calcium and vitamin d",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Celiac disease",
+          "type": "autoimmune",
+          "symptoms": [
+              "diarrhea",
+              "bloating",
+              "abdominal pain",
+              "Persistent fatigue",
+              "weight loss"
+          ],
+          "causes": "immune reaction to consuming gluten",
+          "treatment": "gluten-free diet",
+          "cure": "no cure, but a strict gluten-free diet can manage symptoms",
+          "prevention": "no known prevention, but early diagnosis helps",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Anemia",
+          "type": "blood disorder",
+          "symptoms": [
+              "Persistent fatigue",
+              "pale skin",
+              "shortness of breath",
+              "dizziness",
+              "cold hands and feet"
+          ],
+          "causes": "lack of healthy red blood cells, often due to iron deficiency",
+          "treatment": "iron supplements, dietary changes, treatment of underlying cause",
+          "cure": "curable in some cases, depending on the cause",
+          "prevention": "iron-rich diet, regular check-ups",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Gallstones",
+          "type": "digestive",
+          "symptoms": [
+              "pain in the upper right abdomen",
+              "nausea",
+              "vomiting",
+              "fever",
+              "jaundice"
+          ],
+          "causes": "buildup of cholesterol or bilirubin in the gallbladder",
+          "treatment": "surgical removal of the gallbladder, medications to dissolve stones",
+          "cure": "curable with surgery",
+          "prevention": "maintaining a healthy diet and weight",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Fibromyalgia",
+          "type": "chronic",
+          "symptoms": [
+              "widespread pain",
+              "Persistent fatigue",
+              "sleep disturbances",
+              "memory issues",
+              "mood swings"
+          ],
+          "causes": "unknown, but likely related to genetics, infections, or trauma",
+          "treatment": "pain relievers, antidepressants, physical therapy",
+          "cure": "no cure, but symptoms can be managed",
+          "prevention": "no known prevention, but stress management helps",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Irritable bowel syndrome (ibs)",
+          "type": "digestive",
+          "symptoms": [
+              "abdominal pain",
+              "bloating",
+              "diarrhea",
+              "constipation",
+              "gas"
+          ],
+          "causes": "unknown, but triggers include stress and certain foods",
+          "treatment": "dietary changes, medications for symptoms",
+          "cure": "no cure, but symptoms can be managed",
+          "prevention": "managing stress and avoiding trigger foods",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Bronchitis",
+          "type": "respiratory",
+          "symptoms": [
+              "persistent cough",
+              "mucus production",
+              "Persistent fatigue",
+              "shortness of breath",
+              "chest discomfort"
+          ],
+          "causes": "viral or bacterial infection, exposure to irritants like tobacco smoke",
+          "treatment": "rest, fluids, cough medicine, in some cases antibiotics",
+          "cure": "acute cases are curable, chronic cases are managed",
+          "prevention": "avoid smoking, get vaccinated, and avoid respiratory irritants",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Endometriosis",
+          "type": "chronic",
+          "symptoms": [
+              "pelvic pain",
+              "heavy menstrual bleeding",
+              "pain during intercourse",
+              "Persistent fatigue",
+              "infertility"
+          ],
+          "causes": "tissue similar to the lining inside the uterus grows outside it",
+          "treatment": "pain relief medications, hormone therapy, surgery",
+          "cure": "no cure, but symptoms can be managed",
+          "prevention": "no known prevention, but early diagnosis helps",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Lyme disease",
+          "type": "infectious",
+          "symptoms": [
+              "fever",
+              "headache",
+              "Persistent fatigue",
+              "bull's-eye rash",
+              "muscle and joint pain"
+          ],
+          "causes": "bacterial infection transmitted through tick bites",
+          "treatment": "antibiotics",
+          "cure": "curable with early treatment",
+          "prevention": "avoid tick bites, wear protective clothing",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Chronic fatigue syndrome",
+          "type": "chronic",
+          "symptoms": [
+              "extreme fatigue",
+              "sleep problems",
+              "muscle pain",
+              "joint pain",
+              "headache"
+          ],
+          "causes": "unknown, but may involve viral infections or immune system issues",
+          "treatment": "symptom management, lifestyle changes",
+          "cure": "no cure, but symptoms can be managed",
+          "prevention": "no known prevention, but early treatment can help",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Lupus",
+          "type": "autoimmune",
+          "symptoms": [
+              "Persistent fatigue",
+              "joint pain",
+              "skin rashes",
+              "fever",
+              "sensitivity to sunlight"
+          ],
+          "causes": "immune system attacking healthy tissue",
+          "treatment": "anti-inflammatory drugs, immunosuppressants",
+          "cure": "no cure, but symptoms can be managed",
+          "prevention": "avoiding triggers and managing stress",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Cystic fibrosis",
+          "type": "genetic",
+          "symptoms": [
+              "persistent cough",
+              "wheezing",
+              "shortness of breath",
+              "digestive issues",
+              "poor growth"
+          ],
+          "causes": "mutation in the cystic fibrosis transmembrane conductance regulator gene",
+          "treatment": "medications, physical therapy, nutritional support",
+          "cure": "no cure, but treatment can improve quality of life",
+          "prevention": "genetic counseling for at-risk families",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Sickle cell disease",
+          "type": "genetic",
+          "symptoms": [
+              "anemia",
+              "pain crises",
+              "swelling in hands and feet",
+              "frequent infections"
+          ],
+          "causes": "abnormal hemoglobin causing red blood cells to deform",
+          "treatment": "pain management, blood transfusions, medications",
+          "cure": "bone marrow transplant can be curative in some cases",
+          "prevention": "genetic counseling",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Addison's disease",
+          "type": "endocrine",
+          "symptoms": [
+              "Persistent fatigue",
+              "weight loss",
+              "low blood pressure",
+              "skin changes",
+              "salt cravings"
+          ],
+          "causes": "adrenal glands producing insufficient hormones",
+          "treatment": "hormone replacement therapy",
+          "cure": "no cure, but manageable with treatment",
+          "prevention": "no known prevention, but early diagnosis helps",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Pneumoconiosis",
+          "type": "respiratory",
+          "symptoms": [
+              "Persistent cough",
+              "shortness of breath",
+              "chest tightness",
+              "Persistent fatigue"
+          ],
+          "causes": "inhalation of dust, often in occupational settings",
+          "treatment": "symptom management, avoiding further exposure",
+          "cure": "no cure, but progression can be slowed",
+          "prevention": "using protective equipment in dusty environments",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Thrombocytopenia",
+          "type": "blood disorder",
+          "symptoms": [
+              "easy bruising",
+              "prolonged bleeding",
+              "petechiae",
+              "Persistent fatigue"
+          ],
+          "causes": "low platelet count due to various factors",
+          "treatment": "treating underlying cause, platelet transfusions",
+          "cure": "depends on the cause, some are curable",
+          "prevention": "no known prevention for all cases",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Thyroid disorders",
+          "type": "endocrine",
+          "symptoms": [
+              "weight changes",
+              "Persistent fatigue",
+              "temperature sensitivity",
+              "mood changes",
+              "changes in heart rate"
+          ],
+          "causes": "dysfunction of the thyroid gland",
+          "treatment": "medications, hormone replacement",
+          "cure": "depends on the disorder, often manageable",
+          "prevention": "regular screening for at-risk individuals",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Melanoma",
+          "type": "cancer",
+          "symptoms": [
+              "change in existing moles",
+              "new growths on the skin",
+              "itching or bleeding moles"
+          ],
+          "causes": "overexposure to ultraviolet (uv) light, genetic factors",
+          "treatment": "surgery, chemotherapy, immunotherapy",
+          "cure": "treatable, especially when caught early",
+          "prevention": "sun protection, regular skin checks",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Chronic obstructive pulmonary disease (copd)",
+          "type": "respiratory",
+          "symptoms": [
+              "shortness of breath",
+              "chronic cough",
+              "wheezing",
+              "Persistent fatigue"
+          ],
+          "causes": "long-term exposure to irritants like smoke",
+          "treatment": "inhalers, pulmonary rehabilitation, oxygen therapy",
+          "cure": "no cure, but symptoms can be managed",
+          "prevention": "avoid smoking and other lung irritants",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Ankylosing spondylitis",
+          "type": "chronic",
+          "symptoms": [
+              "chronic back pain",
+              "stiffness",
+              "Persistent fatigue",
+              "posture changes"
+          ],
+          "causes": "inflammatory disease affecting the spine and joints",
+          "treatment": "medications, physical therapy",
+          "cure": "no cure, but symptoms can be managed",
+          "prevention": "no known prevention, but early diagnosis helps",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Charcot-marie-tooth disease",
+          "type": "neurological",
+          "symptoms": [
+              "muscle weakness",
+              "foot drop",
+              "numbness in extremities",
+              "high arches"
+          ],
+          "causes": "inherited genetic mutations affecting peripheral nerves",
+          "treatment": "physical therapy, orthopedic devices",
+          "cure": "no cure, but symptoms can be managed",
+          "prevention": "no known prevention",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Creutzfeldt-jakob disease",
+          "type": "neurological",
+          "symptoms": [
+              "memory problems",
+              "personality changes",
+              "movement difficulties",
+              "vision problems"
+          ],
+          "causes": "prion disease leading to brain degeneration",
+          "treatment": "no effective treatment, supportive care only",
+          "cure": "no cure",
+          "prevention": "avoid exposure to infected tissues",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Kawasaki disease",
+          "type": "cardiovascular",
+          "symptoms": [
+              "fever",
+              "rash",
+              "swollen lymph nodes",
+              "irritation of eyes",
+              "chapped lips"
+          ],
+          "causes": "unknown, possibly related to immune response",
+          "treatment": "intravenous immunoglobulin, aspirin",
+          "cure": "generally treatable, but can lead to complications",
+          "prevention": "no known prevention",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Bipolar disorder",
+          "type": "mental health",
+          "symptoms": [
+              "extreme mood swings",
+              "depression",
+              "mania",
+              "irritability"
+          ],
+          "causes": "genetic and environmental factors",
+          "treatment": "mood stabilizers, therapy",
+          "cure": "no cure, but manageable with treatment",
+          "prevention": "early intervention may reduce severity",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Celiac disease",
+          "type": "digestive",
+          "symptoms": [
+              "diarrhea",
+              "bloating",
+              "Persistent fatigue",
+              "weight loss"
+          ],
+          "causes": "autoimmune reaction to gluten",
+          "treatment": "strict gluten-free diet",
+          "cure": "no cure, but manageable with diet",
+          "prevention": "early diagnosis and diet management",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Gerd (gastroesophageal reflux disease)",
+          "type": "digestive",
+          "symptoms": [
+              "heartburn",
+              "regurgitation",
+              "difficulty swallowing",
+              "chest pain"
+          ],
+          "causes": "malfunction of the lower esophageal sphincter",
+          "treatment": "lifestyle changes, medications",
+          "cure": "no cure, but manageable",
+          "prevention": "avoiding trigger foods and maintaining a healthy weight",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Pelvic inflammatory disease",
+          "type": "infectious",
+          "symptoms": [
+              "abdominal pain",
+              "fever",
+              "unusual discharge",
+              "pain during intercourse"
+          ],
+          "causes": "infection of the female reproductive organs",
+          "treatment": "antibiotics, surgery if necessary",
+          "cure": "treatable, but complications can occur",
+          "prevention": "safe sex practices and regular check-ups",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Sickle cell disease",
+          "type": "blood disorder",
+          "symptoms": [
+              "pain episodes",
+              "swelling",
+              "frequent infections",
+              "Persistent fatigue"
+          ],
+          "causes": "genetic mutation affecting hemoglobin",
+          "treatment": "pain management, blood transfusions, hydroxyurea",
+          "cure": "bone marrow transplant can cure some cases",
+          "prevention": "genetic counseling for at-risk couples",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Chronic fatigue syndrome",
+          "type": "chronic illness",
+          "symptoms": [
+              "extreme fatigue",
+              "sleep abnormalities",
+              "muscle pain",
+              "cognitive difficulties"
+          ],
+          "causes": "unknown, possibly related to viral infections or stress",
+          "treatment": "lifestyle changes, therapy, symptom management",
+          "cure": "no cure, but manageable",
+          "prevention": "no known prevention",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Endometriosis",
+          "type": "reproductive",
+          "symptoms": [
+              "painful periods",
+              "pain during intercourse",
+              "excessive bleeding",
+              "Persistent fatigue"
+          ],
+          "causes": "growth of endometrial tissue outside the uterus",
+          "treatment": "pain relief medications, hormonal therapies, surgery",
+          "cure": "no cure, but manageable with treatment",
+          "prevention": "no known prevention",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Huntington's disease",
+          "type": "neurological",
+          "symptoms": [
+              "movement disorders",
+              "cognitive decline",
+              "personality changes",
+              "psychiatric symptoms"
+          ],
+          "causes": "genetic mutation leading to nerve cell degeneration",
+          "treatment": "medications to manage symptoms",
+          "cure": "no cure, but symptoms can be managed",
+          "prevention": "genetic counseling for at-risk families",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Otitis media",
+          "type": "ear infection",
+          "symptoms": [
+              "ear pain",
+              "fever",
+              "irritability",
+              "drainage from the ear"
+          ],
+          "causes": "bacterial or viral infection of the middle ear",
+          "treatment": "antibiotics, pain relief medications",
+          "cure": "usually resolves with treatment",
+          "prevention": "good hygiene, avoiding exposure to smoke",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Pneumonia",
+          "type": "respiratory infection",
+          "symptoms": [
+              "Persistent cough",
+              "fever",
+              "shortness of breath",
+              "chest pain"
+          ],
+          "causes": "infection by bacteria, viruses, or fungi",
+          "treatment": "antibiotics for bacterial pneumonia, supportive care",
+          "cure": "usually treatable with proper care",
+          "prevention": "vaccination, good hygiene practices",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Irritable bowel syndrome (ibs)",
+          "type": "digestive",
+          "symptoms": [
+              "abdominal pain",
+              "bloating",
+              "diarrhea",
+              "constipation"
+          ],
+          "causes": "unknown, but may involve gut-brain interaction",
+          "treatment": "diet changes, medications, stress management",
+          "cure": "no cure, but manageable",
+          "prevention": "avoiding trigger foods and stress",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Schizophrenia",
+          "type": "mental health",
+          "symptoms": [
+              "delusions",
+              "hallucinations",
+              "disorganized thinking",
+              "emotional flatness"
+          ],
+          "causes": "combination of genetic, brain chemistry, and environmental factors",
+          "treatment": "antipsychotic medications, therapy",
+          "cure": "no cure, but manageable with treatment",
+          "prevention": "early intervention may improve outcomes",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Rheumatoid arthritis",
+          "type": "autoimmune",
+          "symptoms": [
+              "joint pain",
+              "swelling",
+              "morning stiffness",
+              "Persistent fatigue"
+          ],
+          "causes": "autoimmune disorder affecting joints",
+          "treatment": "anti-inflammatory drugs, disease-modifying antirheumatic drugs (dmards)",
+          "cure": "no cure, but symptoms can be managed",
+          "prevention": "no known prevention",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Epilepsy",
+          "type": "neurological",
+          "symptoms": [
+              "seizures",
+              "loss of consciousness",
+              "confusion",
+              "staring spells"
+          ],
+          "causes": "variety of factors, including genetics and brain injury",
+          "treatment": "antiseizure medications, lifestyle changes",
+          "cure": "no cure, but manageable with treatment",
+          "prevention": "avoiding known triggers",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Hepatitis c",
+          "type": "infectious",
+          "symptoms": [
+              "Persistent fatigue",
+              "nausea",
+              "jaundice",
+              "abdominal pain"
+          ],
+          "causes": "infection with hepatitis c virus",
+          "treatment": "antiviral medications",
+          "cure": "most people can be cured with treatment",
+          "prevention": "avoiding sharing needles and safe sex practices",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Hashimoto's thyroiditis",
+          "type": "autoimmune",
+          "symptoms": [
+              "Persistent fatigue",
+              "weight gain",
+              "sensitivity to cold",
+              "dry skin"
+          ],
+          "causes": "autoimmune attack on the thyroid gland",
+          "treatment": "hormone replacement therapy",
+          "cure": "no cure, but manageable with treatment",
+          "prevention": "no known prevention",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Migraines",
+          "type": "neurological",
+          "symptoms": [
+              "throbbing headache",
+              "nausea",
+              "sensitivity to light",
+              "visual disturbances"
+          ],
+          "causes": "various triggers, including hormonal changes and stress",
+          "treatment": "pain relievers, preventive medications",
+          "cure": "no cure, but manageable",
+          "prevention": "avoiding known triggers",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Asthma",
+          "type": "respiratory",
+          "symptoms": [
+              "shortness of breath",
+              "wheezing",
+              "chest tightness",
+              "coughing"
+          ],
+          "causes": "inflammation of airways, often triggered by allergens",
+          "treatment": "inhalers, anti-inflammatory medications",
+          "cure": "no cure, but manageable",
+          "prevention": "avoiding triggers and managing allergies",
+          "risk_factors": [
+              "Family history",
+              "Allergies",
+              "Smoking",
+              "Air pollution"
+          ],
+          "complications": [
+              "Chronic cough",
+              "Respiratory infections"
+          ],
+          "icd_code": "J45",
+          "regions_prevalent": [
+              "Urban areas",
+              "Industrial regions"
+          ],
+          "mortality_rate": "Low with treatment",
+          "triggers": [
+              "Pollen",
+              "Dust mites",
+              "Exercise",
+              "Cold air"
+          ]
+      },
+      {
+          "name": "Glaucoma",
+          "type": "eye condition",
+          "symptoms": [
+              "loss of peripheral vision",
+              "halos around lights",
+              "eye pain",
+              "nausea"
+          ],
+          "causes": "damage to the optic nerve, often related to high eye pressure",
+          "treatment": "eye drops, laser treatment, surgery",
+          "cure": "no cure, but progression can be managed",
+          "prevention": "regular eye exams and managing risk factors",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Chronic obstructive pulmonary disease (copd)",
+          "type": "respiratory",
+          "symptoms": [
+              "chronic cough",
+              "shortness of breath",
+              "wheezing",
+              "Persistent fatigue"
+          ],
+          "causes": "long-term exposure to irritants, primarily smoking",
+          "treatment": "bronchodilators, steroids, oxygen therapy",
+          "cure": "no cure, but manageable with treatment",
+          "prevention": "avoiding smoking and pollutants",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Anxiety disorders",
+          "type": "mental health",
+          "symptoms": [
+              "excessive worry",
+              "restlessness",
+              "Persistent fatigue",
+              "difficulty concentrating"
+          ],
+          "causes": "genetic, environmental, and psychological factors",
+          "treatment": "therapy, medications",
+          "cure": "no cure, but manageable",
+          "prevention": "early intervention may improve outcomes",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Alcohol use disorder",
+          "type": "substance use",
+          "symptoms": [
+              "craving alcohol",
+              "loss of control over drinking",
+              "withdrawal symptoms",
+              "neglecting responsibilities"
+          ],
+          "causes": "combination of genetic and environmental factors",
+          "treatment": "therapy, support groups, medications",
+          "cure": "no cure, but manageable",
+          "prevention": "awareness and education about alcohol use",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Psoriasis",
+          "type": "skin condition",
+          "symptoms": [
+              "red patches",
+              "scaly skin",
+              "itching",
+              "thickened nails"
+          ],
+          "causes": "autoimmune response leading to skin cell overproduction",
+          "treatment": "topical treatments, phototherapy, systemic medications",
+          "cure": "no cure, but manageable",
+          "prevention": "avoiding known triggers",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Tuberculosis",
+          "type": "infectious",
+          "symptoms": [
+              "persistent cough",
+              "chest pain",
+              "weight loss",
+              "night sweats"
+          ],
+          "causes": "infection with mycobacterium tuberculosis",
+          "treatment": "antibiotics over a long course",
+          "cure": "can be cured with appropriate treatment",
+          "prevention": "vaccination, good ventilation",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Parkinson's disease",
+          "type": "neurological",
+          "symptoms": [
+              "tremors",
+              "bradykinesia",
+              "rigidity",
+              "postural instability"
+          ],
+          "causes": "loss of dopamine-producing neurons in the brain",
+          "treatment": "medications to manage symptoms, physical therapy",
+          "cure": "no cure, but symptoms can be managed",
+          "prevention": "no known prevention",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Diabetes type 2",
+          "type": "endocrine",
+          "symptoms": [
+              "increased thirst",
+              "frequent urination",
+              "hunger",
+              "Persistent fatigue"
+          ],
+          "causes": "insulin resistance and eventual insulin deficiency",
+          "treatment": "lifestyle changes, medications, insulin therapy",
+          "cure": "no cure, but manageable with lifestyle changes",
+          "prevention": "healthy diet and regular exercise",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Sickle cell disease",
+          "type": "genetic blood disorder",
+          "symptoms": [
+              "anemia",
+              "episodes of pain",
+              "swelling",
+              "frequent infections"
+          ],
+          "causes": "mutation in the hemoglobin gene",
+          "treatment": "pain management, blood transfusions, medications",
+          "cure": "possible with bone marrow transplant",
+          "prevention": "genetic counseling for at-risk couples",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Diverticulitis",
+          "type": "digestive disorder",
+          "symptoms": [
+              "abdominal pain",
+              "fever",
+              "nausea",
+              "changes in bowel habits"
+          ],
+          "causes": "inflammation of diverticula in the colon",
+          "treatment": "dietary changes, antibiotics, surgery in severe cases",
+          "cure": "no definitive cure, but manageable",
+          "prevention": "high-fiber diet, staying hydrated",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Gout",
+          "type": "joint disorder",
+          "symptoms": [
+              "sudden severe pain",
+              "swelling",
+              "redness in joints",
+              "limited range of motion"
+          ],
+          "causes": "buildup of uric acid crystals in joints",
+          "treatment": "anti-inflammatory medications, lifestyle changes",
+          "cure": "no cure, but manageable with treatment",
+          "prevention": "avoiding foods high in purines",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Thyroid cancer",
+          "type": "cancer",
+          "symptoms": [
+              "lump in the neck",
+              "changes in voice",
+              "difficulty swallowing",
+              "pain in the neck or throat"
+          ],
+          "causes": "genetic mutations and exposure to radiation",
+          "treatment": "surgery, radioactive iodine, hormone therapy",
+          "cure": "often curable if caught early",
+          "prevention": "no known prevention",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Chronic fatigue syndrome",
+          "type": "chronic illness",
+          "symptoms": [
+              "extreme fatigue",
+              "muscle pain",
+              "joint pain",
+              "cognitive difficulties"
+          ],
+          "causes": "unknown, may involve immune system dysfunction",
+          "treatment": "symptom management, lifestyle adjustments",
+          "cure": "no cure, but manageable",
+          "prevention": "no known prevention",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Alzheimer's disease",
+          "type": "neurological",
+          "symptoms": [
+              "memory loss",
+              "confusion",
+              "difficulty with language",
+              "changes in behavior"
+          ],
+          "causes": "complex interactions of genetic, lifestyle, and environmental factors",
+          "treatment": "medications to manage symptoms, supportive care",
+          "cure": "no cure, but treatments can slow progression",
+          "prevention": "healthy lifestyle may reduce risk",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Frontotemporal dementia",
+          "type": "neurological",
+          "symptoms": [
+              "changes in personality",
+              "difficulty with speech",
+              "compulsive behavior",
+              "loss of empathy"
+          ],
+          "causes": "degeneration of nerve cells in the frontal and temporal lobes",
+          "treatment": "supportive care, symptom management",
+          "cure": "no cure, but manageable with treatment",
+          "prevention": "no known prevention",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Chronic sinusitis",
+          "type": "respiratory",
+          "symptoms": [
+              "nasal congestion",
+              "facial pain",
+              "reduced sense of smell",
+              "Persistent cough"
+          ],
+          "causes": "inflammation of the sinuses, often due to infections or allergies",
+          "treatment": "nasal corticosteroids, saline nasal irrigation, antibiotics if bacterial",
+          "cure": "no cure, but manageable",
+          "prevention": "avoiding allergens, good hygiene",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Restless legs syndrome",
+          "type": "neurological",
+          "symptoms": [
+              "uncomfortable urge to move legs",
+              "crawling sensations",
+              "worsening symptoms at night",
+              "relief with movement"
+          ],
+          "causes": "often unknown, may be related to iron deficiency",
+          "treatment": "lifestyle changes, medications, treating underlying conditions",
+          "cure": "no cure, but manageable",
+          "prevention": "addressing underlying issues may help",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Chronic pancreatitis",
+          "type": "digestive disorder",
+          "symptoms": [
+              "abdominal pain",
+              "weight loss",
+              "diarrhea",
+              "nausea"
+          ],
+          "causes": "long-term inflammation of the pancreas",
+          "treatment": "pain management, dietary changes, surgery in severe cases",
+          "cure": "no cure, but manageable",
+          "prevention": "avoiding alcohol and managing underlying conditions",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Myasthenia gravis",
+          "type": "neuromuscular disorder",
+          "symptoms": [
+              "muscle weakness",
+              "Persistent fatigue",
+              "difficulty swallowing",
+              "double vision"
+          ],
+          "causes": "immune system attacks communication between nerves and muscles",
+          "treatment": "medications, thymectomy, plasmapheresis",
+          "cure": "no cure, but symptoms can be managed",
+          "prevention": "no known prevention",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Osteoarthritis",
+          "type": "joint disorder",
+          "symptoms": [
+              "joint pain",
+              "stiffness",
+              "swelling",
+              "decreased range of motion"
+          ],
+          "causes": "wear and tear of cartilage in joints",
+          "treatment": "pain relievers, physical therapy, joint replacement in severe cases",
+          "cure": "no cure, but manageable",
+          "prevention": "maintaining a healthy weight, regular exercise",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Psoriasis",
+          "type": "skin disorder",
+          "symptoms": [
+              "red patches of skin",
+              "scaling",
+              "itching",
+              "thickened nails"
+          ],
+          "causes": "autoimmune response leading to rapid skin cell growth",
+          "treatment": "topical treatments, phototherapy, systemic medications",
+          "cure": "no cure, but manageable",
+          "prevention": "avoiding triggers",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Neurofibromatosis",
+          "type": "genetic disorder",
+          "symptoms": [
+              "tumors on nerves",
+              "skin changes",
+              "learning disabilities",
+              "bone deformities"
+          ],
+          "causes": "genetic mutations",
+          "treatment": "monitoring, surgery for tumors, management of symptoms",
+          "cure": "no cure, but manageable",
+          "prevention": "genetic counseling for at-risk individuals",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Tuberculosis",
+          "type": "infectious disease",
+          "symptoms": [
+              "persistent cough",
+              "chest pain",
+              "weight loss",
+              "night sweats"
+          ],
+          "causes": "infection with mycobacterium tuberculosis bacteria",
+          "treatment": "antibiotics for several months",
+          "cure": "often curable with proper treatment",
+          "prevention": "vaccination, good hygiene",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Migraines",
+          "type": "neurological disorder",
+          "symptoms": [
+              "severe headache",
+              "nausea",
+              "sensitivity to light",
+              "aura"
+          ],
+          "causes": "various triggers, including hormonal changes, stress, and certain foods",
+          "treatment": "pain relief medications, lifestyle changes, preventive medications",
+          "cure": "no cure, but manageable",
+          "prevention": "identifying and avoiding triggers",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Meningitis",
+          "type": "infection of the protective membranes covering the brain",
+          "symptoms": [
+              "headache",
+              "fever",
+              "stiff neck",
+              "sensitivity to light"
+          ],
+          "causes": "viral, bacterial, or fungal infections",
+          "treatment": "antibiotics for bacterial meningitis, supportive care",
+          "cure": "varies by type, but many can be treatable",
+          "prevention": "vaccination",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Polycystic ovary syndrome (pcos)",
+          "type": "hormonal disorder",
+          "symptoms": [
+              "irregular periods",
+              "acne",
+              "weight gain",
+              "excess hair growth"
+          ],
+          "causes": "hormonal imbalance",
+          "treatment": "lifestyle changes, medications",
+          "cure": "no cure, but manageable",
+          "prevention": "maintaining a healthy lifestyle",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Meningococcal disease",
+          "type": "bacterial infection",
+          "symptoms": [
+              "fever",
+              "headache",
+              "stiff neck",
+              "rash"
+          ],
+          "causes": "infection with neisseria meningitidis",
+          "treatment": "antibiotics and supportive care",
+          "cure": "treatable if caught early",
+          "prevention": "vaccination",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Sickle cell anemia",
+          "type": "genetic disorder",
+          "symptoms": [
+              "pain episodes",
+              "Persistent fatigue",
+              "swelling in hands and feet",
+              "frequent infections"
+          ],
+          "causes": "inherited mutation in hemoglobin",
+          "treatment": "pain relief, blood transfusions, bone marrow transplant",
+          "cure": "no cure, but treatments can manage symptoms",
+          "prevention": "genetic counseling",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Cystitis",
+          "type": "urinary tract infection",
+          "symptoms": [
+              "frequent urination",
+              "painful urination",
+              "lower abdominal pain",
+              "cloudy urine"
+          ],
+          "causes": "bacterial infection",
+          "treatment": "antibiotics",
+          "cure": "typically curable with treatment",
+          "prevention": "staying hydrated, proper hygiene",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Cervical spondylosis",
+          "type": "degenerative disease",
+          "symptoms": [
+              "neck pain",
+              "stiffness",
+              "headache",
+              "numbness in arms"
+          ],
+          "causes": "wear and tear of cervical spine",
+          "treatment": "physical therapy, pain relief medications",
+          "cure": "no cure, but symptoms can be managed",
+          "prevention": "good posture, regular exercise",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Hives",
+          "type": "allergic reaction",
+          "symptoms": [
+              "itchy welts",
+              "swelling",
+              "redness",
+              "burning sensation"
+          ],
+          "causes": "allergies, stress, infections",
+          "treatment": "antihistamines, avoiding triggers",
+          "cure": "usually resolves on its own",
+          "prevention": "identifying and avoiding triggers",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Chronic fatigue syndrome (cfs)",
+          "type": "chronic illness",
+          "symptoms": [
+              "persistent fatigue",
+              "sleep disturbances",
+              "muscle pain",
+              "difficulty concentrating"
+          ],
+          "causes": "unknown, possibly viral infections or immune dysfunction",
+          "treatment": "symptom management, lifestyle changes",
+          "cure": "no cure, but symptoms can be managed",
+          "prevention": "no known prevention",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Achalasia",
+          "type": "esophageal motility disorder",
+          "symptoms": [
+              "difficulty swallowing",
+              "chest pain",
+              "regurgitation of food",
+              "weight loss"
+          ],
+          "causes": "nerve damage to esophagus",
+          "treatment": "balloon dilation, surgery",
+          "cure": "treatable but no complete cure",
+          "prevention": "none",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Sarcoidosis",
+          "type": "inflammatory disease",
+          "symptoms": [
+              "Persistent fatigue",
+              "swollen lymph nodes",
+              "shortness of breath",
+              "skin lesions"
+          ],
+          "causes": "immune system overreaction",
+          "treatment": "corticosteroids, immunosuppressants",
+          "cure": "not curable, but manageable",
+          "prevention": "none",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Trigeminal neuralgia",
+          "type": "nerve disorder",
+          "symptoms": [
+              "severe facial pain",
+              "electric shock sensations",
+              "pain triggered by chewing",
+              "spasms in facial muscles"
+          ],
+          "causes": "pressure on the trigeminal nerve",
+          "treatment": "medications, surgery",
+          "cure": "treatable, often manageable",
+          "prevention": "no known prevention",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Raynaud's disease",
+          "type": "circulatory disorder",
+          "symptoms": [
+              "cold fingers and toes",
+              "color changes in skin",
+              "numbness",
+              "tingling"
+          ],
+          "causes": "narrowing of blood vessels in response to cold or stress",
+          "treatment": "medications, lifestyle changes",
+          "cure": "manageable, not curable",
+          "prevention": "avoiding cold, reducing stress",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Guillain-barr\u00e9 syndrome",
+          "type": "autoimmune disorder",
+          "symptoms": [
+              "muscle weakness",
+              "numbness",
+              "difficulty walking",
+              "difficulty breathing"
+          ],
+          "causes": "immune system attacking peripheral nerves",
+          "treatment": "immunotherapy, physical therapy",
+          "cure": "partial recovery in most cases",
+          "prevention": "no known prevention",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Barrett's esophagus",
+          "type": "precancerous condition",
+          "symptoms": [
+              "heartburn",
+              "chest pain",
+              "difficulty swallowing",
+              "vomiting blood"
+          ],
+          "causes": "chronic acid reflux",
+          "treatment": "medications, surgery",
+          "cure": "manage symptoms, monitor for cancer development",
+          "prevention": "controlling acid reflux",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Trichotillomania",
+          "type": "impulse control disorder",
+          "symptoms": [
+              "hair pulling",
+              "hair loss",
+              "bald patches",
+              "skin irritation"
+          ],
+          "causes": "psychological stress, anxiety",
+          "treatment": "therapy, medications",
+          "cure": "manageable with therapy",
+          "prevention": "early psychological intervention",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Herpes zoster (shingles)",
+          "type": "viral infection",
+          "symptoms": [
+              "painful rash",
+              "blisters",
+              "burning sensation",
+              "sensitivity to touch"
+          ],
+          "causes": "reactivation of varicella-zoster virus",
+          "treatment": "antiviral medications, pain relief",
+          "cure": "treatable, symptoms can be reduced",
+          "prevention": "vaccination",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Amyotrophic lateral sclerosis (als)",
+          "type": "neurodegenerative disease",
+          "symptoms": [
+              "muscle weakness",
+              "difficulty speaking",
+              "difficulty breathing",
+              "muscle twitching"
+          ],
+          "causes": "degeneration of motor neurons",
+          "treatment": "medications, physical therapy",
+          "cure": "not curable",
+          "prevention": "none",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Sjogren's syndrome",
+          "type": "autoimmune disorder",
+          "symptoms": [
+              "dry eyes",
+              "dry mouth",
+              "joint pain",
+              "swollen salivary glands"
+          ],
+          "causes": "immune system attacking glands",
+          "treatment": "medications, eye drops",
+          "cure": "no cure, but symptoms can be managed",
+          "prevention": "none",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Peripheral neuropathy",
+          "type": "nervous system disorder",
+          "symptoms": [
+              "numbness",
+              "tingling",
+              "muscle weakness",
+              "burning sensation"
+          ],
+          "causes": "damage to peripheral nerves",
+          "treatment": "medications, physical therapy",
+          "cure": "not curable, but symptoms can be managed",
+          "prevention": "maintain healthy lifestyle",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Marfan syndrome",
+          "type": "genetic disorder",
+          "symptoms": [
+              "tall stature",
+              "long limbs",
+              "flexible joints",
+              "heart murmurs"
+          ],
+          "causes": "genetic mutation affecting connective tissue",
+          "treatment": "medications, surgery",
+          "cure": "not curable, but treatable",
+          "prevention": "none, as it is genetic",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Pityriasis rosea",
+          "type": "skin condition",
+          "symptoms": [
+              "rash",
+              "itching",
+              "scaly patches",
+              "Persistent fatigue"
+          ],
+          "causes": "possibly viral infection",
+          "treatment": "topical ointments, antihistamines",
+          "cure": "self-limiting, resolves on its own",
+          "prevention": "no known prevention",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Thrombophlebitis",
+          "type": "vascular condition",
+          "symptoms": [
+              "swelling",
+              "pain in leg",
+              "redness",
+              "warmth along the vein"
+          ],
+          "causes": "blood clot in vein",
+          "treatment": "compression stockings, blood thinners",
+          "cure": "treatable, but prevention of recurrence is needed",
+          "prevention": "stay active, avoid prolonged sitting",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Rosacea",
+          "type": "chronic skin condition",
+          "symptoms": [
+              "redness on face",
+              "visible blood vessels",
+              "swollen skin",
+              "acne-like breakouts"
+          ],
+          "causes": "unknown, may involve genetic and environmental factors",
+          "treatment": "topical treatments, laser therapy",
+          "cure": "not curable, but manageable",
+          "prevention": "avoid triggers like sun exposure, spicy food",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Tennis elbow",
+          "type": "musculoskeletal disorder",
+          "symptoms": [
+              "pain on outer elbow",
+              "weakened grip",
+              "tenderness",
+              "stiffness"
+          ],
+          "causes": "overuse of forearm muscles",
+          "treatment": "rest, physical therapy",
+          "cure": "treatable with proper care",
+          "prevention": "strengthen muscles, proper technique in activities",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Polyarteritis nodosa",
+          "type": "inflammatory blood vessel disease",
+          "symptoms": [
+              "fever",
+              "muscle pain",
+              "joint pain",
+              "skin ulcers"
+          ],
+          "causes": "unknown, possibly autoimmune",
+          "treatment": "corticosteroids, immunosuppressants",
+          "cure": "not curable, but manageable",
+          "prevention": "no known prevention",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Malaria",
+          "type": "parasitic infection",
+          "symptoms": [
+              "fever",
+              "chills",
+              "headache",
+              "muscle pain"
+          ],
+          "causes": "plasmodium parasite spread by mosquitoes",
+          "treatment": "antimalarial medications",
+          "cure": "treatable with proper medication",
+          "prevention": "use of mosquito nets, insect repellent",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Scleroderma",
+          "type": "autoimmune disease",
+          "symptoms": [
+              "tightened skin",
+              "joint pain",
+              "heartburn",
+              "difficulty breathing"
+          ],
+          "causes": "immune system attacking connective tissue",
+          "treatment": "immunosuppressants, physical therapy",
+          "cure": "not curable, but manageable",
+          "prevention": "no known prevention",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Pemphigus vulgaris",
+          "type": "autoimmune blistering disorder",
+          "symptoms": [
+              "blisters on skin",
+              "sores in mouth",
+              "painful lesions",
+              "difficulty swallowing"
+          ],
+          "causes": "immune system attacking skin cells",
+          "treatment": "corticosteroids, immunosuppressants",
+          "cure": "not curable, but treatable",
+          "prevention": "none",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Myocarditis",
+          "type": "heart condition",
+          "symptoms": [
+              "chest pain",
+              "Persistent fatigue",
+              "shortness of breath",
+              "irregular heartbeat"
+          ],
+          "causes": "viral infections, autoimmune diseases",
+          "treatment": "medications, rest",
+          "cure": "treatable but depends on the cause",
+          "prevention": "good hygiene, vaccinations",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Takayasu's arteritis",
+          "type": "vascular disease",
+          "symptoms": [
+              "weak pulse",
+              "arm or leg pain",
+              "high blood pressure",
+              "vision changes"
+          ],
+          "causes": "autoimmune disorder",
+          "treatment": "corticosteroids, immunosuppressants",
+          "cure": "not curable but manageable",
+          "prevention": "none, as it is autoimmune",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Raynaud's disease",
+          "type": "vascular condition",
+          "symptoms": [
+              "cold fingers or toes",
+              "numbness in extremities",
+              "color changes in skin",
+              "tingling"
+          ],
+          "causes": "vasospasm of arteries",
+          "treatment": "medications, avoiding cold",
+          "cure": "manageable but not curable",
+          "prevention": "keep extremities warm",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Gastroenteritis",
+          "type": "digestive disorder",
+          "symptoms": [
+              "diarrhea",
+              "vomiting",
+              "abdominal cramps",
+              "dehydration"
+          ],
+          "causes": "viral, bacterial, or parasitic infection",
+          "treatment": "hydration, rest",
+          "cure": "self-limiting, resolves on its own",
+          "prevention": "good hygiene, safe food and water",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Bells palsy",
+          "type": "nervous system disorder",
+          "symptoms": [
+              "facial drooping",
+              "inability to close eye",
+              "drooling",
+              "loss of taste"
+          ],
+          "causes": "viral infections",
+          "treatment": "medications, physical therapy",
+          "cure": "usually resolves on its own",
+          "prevention": "none",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Guillain-barre syndrome",
+          "type": "autoimmune disorder",
+          "symptoms": [
+              "muscle weakness",
+              "difficulty breathing",
+              "numbness",
+              "reflex loss"
+          ],
+          "causes": "immune system attacking nerves",
+          "treatment": "immunotherapy, physical therapy",
+          "cure": "not curable but treatable",
+          "prevention": "none",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Dermatomyositis",
+          "type": "inflammatory muscle disease",
+          "symptoms": [
+              "muscle weakness",
+              "rash",
+              "Persistent fatigue",
+              "difficulty swallowing"
+          ],
+          "causes": "autoimmune response",
+          "treatment": "corticosteroids, immunosuppressants",
+          "cure": "not curable but manageable",
+          "prevention": "none",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Trypanosomiasis (sleeping sickness)",
+          "type": "parasitic infection",
+          "symptoms": [
+              "fever",
+              "joint pain",
+              "headache",
+              "disturbed sleep patterns"
+          ],
+          "causes": "tsetse fly bite",
+          "treatment": "antiparasitic medications",
+          "cure": "curable with treatment",
+          "prevention": "avoid tsetse fly bites",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Pemphigoid",
+          "type": "autoimmune skin disease",
+          "symptoms": [
+              "blisters",
+              "itching",
+              "rash",
+              "skin erosion"
+          ],
+          "causes": "immune system attacking skin layers",
+          "treatment": "corticosteroids, immunosuppressants",
+          "cure": "not curable but manageable",
+          "prevention": "none",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Sialolithiasis",
+          "type": "salivary gland disorder",
+          "symptoms": [
+              "pain under jaw",
+              "swelling of salivary glands",
+              "dry mouth",
+              "difficulty swallowing"
+          ],
+          "causes": "salivary gland stones",
+          "treatment": "hydration, surgery",
+          "cure": "curable with treatment",
+          "prevention": "stay hydrated",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Buerger's disease",
+          "type": "vascular condition",
+          "symptoms": [
+              "pain in legs or arms",
+              "cold limbs",
+              "tingling",
+              "skin ulcers"
+          ],
+          "causes": "smoking-related inflammation of blood vessels",
+          "treatment": "quitting smoking, medications",
+          "cure": "not curable but manageable",
+          "prevention": "avoid smoking",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Chagas disease",
+          "type": "parasitic infection",
+          "symptoms": [
+              "fever",
+              "Persistent fatigue",
+              "swelling at infection site",
+              "heart failure in chronic stages"
+          ],
+          "causes": "trypanosoma cruzi parasite",
+          "treatment": "antiparasitic medications",
+          "cure": "curable in acute phase",
+          "prevention": "avoid insect bites, improve housing conditions",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Henoch-schonlein purpura",
+          "type": "vascular disease",
+          "symptoms": [
+              "purplish rash",
+              "joint pain",
+              "abdominal pain",
+              "kidney inflammation"
+          ],
+          "causes": "autoimmune response, often following an infection",
+          "treatment": "medications, rest",
+          "cure": "usually self-limiting but can require treatment",
+          "prevention": "none known",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Pityriasis alba",
+          "type": "skin condition",
+          "symptoms": [
+              "light patches on skin",
+              "dryness",
+              "scaling",
+              "mild itching"
+          ],
+          "causes": "unknown, possibly related to eczema",
+          "treatment": "moisturizers, topical steroids",
+          "cure": "manageable but may persist for years",
+          "prevention": "good skin care",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Lymphangioleiomyomatosis",
+          "type": "lung disease",
+          "symptoms": [
+              "shortness of breath",
+              "chest pain",
+              "coughing",
+              "lung collapse"
+          ],
+          "causes": "abnormal muscle cell growth in lungs",
+          "treatment": "medications, oxygen therapy",
+          "cure": "not curable but treatable",
+          "prevention": "none",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Polymyalgia rheumatica",
+          "type": "inflammatory disease",
+          "symptoms": [
+              "muscle stiffness",
+              "pain in shoulders and hips",
+              "Persistent fatigue",
+              "fever"
+          ],
+          "causes": "unknown, possibly autoimmune",
+          "treatment": "corticosteroids",
+          "cure": "manageable but not curable",
+          "prevention": "none",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Erythema multiforme",
+          "type": "skin condition",
+          "symptoms": [
+              "red or purple skin lesions",
+              "blistering",
+              "mouth sores",
+              "itching"
+          ],
+          "causes": "often triggered by infections or medications",
+          "treatment": "antiviral or corticosteroid medications",
+          "cure": "resolves on its own but can recur",
+          "prevention": "avoid known triggers",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Klinefelter syndrome",
+          "type": "genetic disorder",
+          "symptoms": [
+              "tall stature",
+              "infertility",
+              "reduced muscle mass",
+              "learning difficulties"
+          ],
+          "causes": "extra x chromosome in males",
+          "treatment": "hormone therapy, educational support",
+          "cure": "not curable",
+          "prevention": "none",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Polycythemia vera",
+          "type": "blood disorder",
+          "symptoms": [
+              "headache",
+              "dizziness",
+              "itching",
+              "high blood pressure"
+          ],
+          "causes": "bone marrow producing too many red blood cells",
+          "treatment": "blood thinners, medications",
+          "cure": "not curable but manageable",
+          "prevention": "none",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Molluscum contagiosum",
+          "type": "skin infection",
+          "symptoms": [
+              "small, raised, flesh-colored bumps",
+              "itching",
+              "inflammation around bumps",
+              "spreading through skin contact"
+          ],
+          "causes": "molluscum contagiosum virus",
+          "treatment": "usually self-limiting, medications for severe cases",
+          "cure": "curable but can persist for months",
+          "prevention": "good hygiene, avoid skin contact with infected",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Pseudogout",
+          "type": "joint disorder",
+          "symptoms": [
+              "joint pain",
+              "swelling",
+              "warmth",
+              "stiffness"
+          ],
+          "causes": "calcium pyrophosphate crystal buildup in joints",
+          "treatment": "anti-inflammatory medications, corticosteroids",
+          "cure": "not curable but manageable",
+          "prevention": "none",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Nephrotic syndrome",
+          "type": "kidney disorder",
+          "symptoms": [
+              "swelling around eyes and ankles",
+              "foamy urine",
+              "weight gain due to fluid retention",
+              "Persistent fatigue"
+          ],
+          "causes": "damage to blood vessels in kidneys",
+          "treatment": "medications, dietary changes",
+          "cure": "manageable but not always curable",
+          "prevention": "managing risk factors",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Vasculitis",
+          "type": "inflammatory disease",
+          "symptoms": [
+              "fever",
+              "Persistent fatigue",
+              "weight loss",
+              "muscle and joint pain"
+          ],
+          "causes": "immune system attacks blood vessels",
+          "treatment": "anti-inflammatory drugs, immunosuppressants",
+          "cure": "manageable, varies by type",
+          "prevention": "none",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Medullary sponge kidney",
+          "type": "kidney disorder",
+          "symptoms": [
+              "blood in urine",
+              "kidney stones",
+              "urinary tract infections",
+              "pain in sides or back"
+          ],
+          "causes": "genetic mutation affecting kidney development",
+          "treatment": "pain management, increased fluid intake",
+          "cure": "not curable",
+          "prevention": "none",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Interstitial cystitis",
+          "type": "bladder disorder",
+          "symptoms": [
+              "chronic pelvic pain",
+              "frequent urination",
+              "urgency to urinate",
+              "painful urination"
+          ],
+          "causes": "unknown, possibly related to bladder inflammation",
+          "treatment": "medications, bladder distention",
+          "cure": "manageable but chronic",
+          "prevention": "none known",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Gilbert's syndrome",
+          "type": "liver condition",
+          "symptoms": [
+              "jaundice",
+              "Persistent fatigue",
+              "abdominal discomfort"
+          ],
+          "causes": "genetic mutation affecting bilirubin processing",
+          "treatment": "none required in most cases",
+          "cure": "not needed as it is usually harmless",
+          "prevention": "none",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Morphea",
+          "type": "skin condition",
+          "symptoms": [
+              "hardened, discolored patches of skin",
+              "itching",
+              "skin tightness"
+          ],
+          "causes": "autoimmune-related inflammation",
+          "treatment": "topical treatments, corticosteroids",
+          "cure": "self-limiting but can recur",
+          "prevention": "none known",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Gastroparesis",
+          "type": "digestive disorder",
+          "symptoms": [
+              "nausea",
+              "vomiting",
+              "feeling full quickly",
+              "bloating"
+          ],
+          "causes": "delayed stomach emptying due to nerve damage",
+          "treatment": "dietary changes, medications",
+          "cure": "manageable but not curable",
+          "prevention": "managing risk factors like diabetes",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Sweet syndrome",
+          "type": "skin condition",
+          "symptoms": [
+              "painful red or purple bumps",
+              "fever",
+              "tiredness"
+          ],
+          "causes": "unknown, possibly linked to infections or autoimmune responses",
+          "treatment": "corticosteroids",
+          "cure": "manageable, may recur",
+          "prevention": "none known",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Ramsay hunt syndrome",
+          "type": "neurological disorder",
+          "symptoms": [
+              "facial paralysis",
+              "ear pain",
+              "hearing loss",
+              "blisters in ear"
+          ],
+          "causes": "varicella-zoster virus reactivation",
+          "treatment": "antiviral medications, corticosteroids",
+          "cure": "treatable, but some symptoms may persist",
+          "prevention": "chickenpox vaccine",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Pseudogout",
+          "type": "joint disorder",
+          "symptoms": [
+              "joint pain",
+              "swelling",
+              "warmth",
+              "stiffness"
+          ],
+          "causes": "calcium pyrophosphate crystal buildup in joints",
+          "treatment": "anti-inflammatory medications, corticosteroids",
+          "cure": "not curable but manageable",
+          "prevention": "none",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Medullary sponge kidney",
+          "type": "kidney disorder",
+          "symptoms": [
+              "blood in urine",
+              "kidney stones",
+              "urinary tract infections",
+              "pain in sides or back"
+          ],
+          "causes": "genetic mutation affecting kidney development",
+          "treatment": "pain management, increased fluid intake",
+          "cure": "not curable",
+          "prevention": "none",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Interstitial cystitis",
+          "type": "bladder disorder",
+          "symptoms": [
+              "chronic pelvic pain",
+              "frequent urination",
+              "urgency to urinate",
+              "painful urination"
+          ],
+          "causes": "unknown, possibly related to bladder inflammation",
+          "treatment": "medications, bladder distention",
+          "cure": "manageable but chronic",
+          "prevention": "none known",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Gilbert's syndrome",
+          "type": "liver condition",
+          "symptoms": [
+              "jaundice",
+              "Persistent fatigue",
+              "abdominal discomfort"
+          ],
+          "causes": "genetic mutation affecting bilirubin processing",
+          "treatment": "none required in most cases",
+          "cure": "not needed as it is usually harmless",
+          "prevention": "none",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Morphea",
+          "type": "skin condition",
+          "symptoms": [
+              "hardened, discolored patches of skin",
+              "itching",
+              "skin tightness"
+          ],
+          "causes": "autoimmune-related inflammation",
+          "treatment": "topical treatments, corticosteroids",
+          "cure": "self-limiting but can recur",
+          "prevention": "none known",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Gastroparesis",
+          "type": "digestive disorder",
+          "symptoms": [
+              "nausea",
+              "vomiting",
+              "feeling full quickly",
+              "bloating"
+          ],
+          "causes": "delayed stomach emptying due to nerve damage",
+          "treatment": "dietary changes, medications",
+          "cure": "manageable but not curable",
+          "prevention": "managing risk factors like diabetes",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Sweet syndrome",
+          "type": "skin condition",
+          "symptoms": [
+              "painful red or purple bumps",
+              "fever",
+              "tiredness"
+          ],
+          "causes": "unknown, possibly linked to infections or autoimmune responses",
+          "treatment": "corticosteroids",
+          "cure": "manageable, may recur",
+          "prevention": "none known",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Ramsay hunt syndrome",
+          "type": "neurological disorder",
+          "symptoms": [
+              "facial paralysis",
+              "ear pain",
+              "hearing loss",
+              "blisters in ear"
+          ],
+          "causes": "varicella-zoster virus reactivation",
+          "treatment": "antiviral medications, corticosteroids",
+          "cure": "treatable, but some symptoms may persist",
+          "prevention": "chickenpox vaccine",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Achondroplasia",
+          "type": "genetic disorder",
+          "symptoms": [
+              "short stature",
+              "disproportionately short arms and legs",
+              "enlarged head",
+              "spinal stenosis"
+          ],
+          "causes": "mutation in FGFR3 gene",
+          "treatment": "growth hormone therapy, surgeries",
+          "cure": "not curable",
+          "prevention": "none",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Prader-willi syndrome",
+          "type": "genetic disorder",
+          "symptoms": [
+              "delayed development",
+              "constant hunger",
+              "intellectual disability",
+              "poor muscle tone"
+          ],
+          "causes": "loss of function of certain genes on chromosome 15",
+          "treatment": "growth hormone therapy, supportive care",
+          "cure": "not curable",
+          "prevention": "none",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Erysipelas",
+          "type": "skin infection",
+          "symptoms": [
+              "fever",
+              "chills",
+              "painful red patches on skin",
+              "swelling"
+          ],
+          "causes": "bacterial infection by group A streptococcus",
+          "treatment": "antibiotics",
+          "cure": "curable with treatment",
+          "prevention": "proper wound care, hygiene",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Hereditary angioedema",
+          "type": "genetic disorder",
+          "symptoms": [
+              "swelling of extremities",
+              "abdominal pain",
+              "swelling of throat",
+              "breathing difficulties"
+          ],
+          "causes": "mutation affecting C1 inhibitor protein",
+          "treatment": "C1 inhibitors, supportive care",
+          "cure": "manageable but not curable",
+          "prevention": "none",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Gilbert's syndrome",
+          "type": "liver disorder",
+          "symptoms": [
+              "mild jaundice",
+              "Persistent fatigue",
+              "abdominal pain"
+          ],
+          "causes": "genetic mutation affecting bilirubin processing",
+          "treatment": "none needed in most cases",
+          "cure": "not necessary as it\u2019s usually harmless",
+          "prevention": "none",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Ataxia-telangiectasia",
+          "type": "neurological disorder",
+          "symptoms": [
+              "difficulty with coordination",
+              "slurred speech",
+              "frequent infections",
+              "dilated blood vessels"
+          ],
+          "causes": "genetic mutations in ATM gene",
+          "treatment": "symptomatic treatment, physical therapy",
+          "cure": "not curable",
+          "prevention": "none",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Granulomatosis with polyangiitis",
+          "type": "autoimmune disease",
+          "symptoms": [
+              "sinus infections",
+              "shortness of breath",
+              "joint pain",
+              "blood in urine"
+          ],
+          "causes": "immune system attacks blood vessels",
+          "treatment": "immunosuppressants, corticosteroids",
+          "cure": "manageable, may go into remission",
+          "prevention": "none",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Fabry disease",
+          "type": "genetic disorder",
+          "symptoms": [
+              "pain in hands and feet",
+              "rash",
+              "hearing loss",
+              "kidney problems"
+          ],
+          "causes": "mutation in GLA gene leading to enzyme deficiency",
+          "treatment": "enzyme replacement therapy",
+          "cure": "manageable but not curable",
+          "prevention": "none",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Moyamoya disease",
+          "type": "vascular disorder",
+          "symptoms": [
+              "headaches",
+              "seizures",
+              "weakness in limbs",
+              "vision problems"
+          ],
+          "causes": "narrowing of arteries in the brain",
+          "treatment": "surgery, medications to manage symptoms",
+          "cure": "not curable but manageable",
+          "prevention": "none",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Alpha-1 antitrypsin deficiency",
+          "type": "genetic disorder",
+          "symptoms": [
+              "shortness of breath",
+              "wheezing",
+              "chronic cough",
+              "liver problems"
+          ],
+          "causes": "mutation in SERPINA1 gene leading to enzyme deficiency",
+          "treatment": "enzyme replacement therapy, medications",
+          "cure": "manageable but not curable",
+          "prevention": "none",
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Measles",
+          "type": "Viral Infection (Contagious)",
+          "symptoms": [
+              "high fever",
+              "Persistent cough",
+              "runny nose",
+              "red, watery eyes",
+              "white spots inside the mouth (koplik spots)",
+              "red rash that starts on the face and spreads downward"
+          ],
+          "causes": "Caused by the measles virus, typically spread through respiratory droplets from coughing and sneezing.",
+          "treatment": {
+              "supportive_care": [
+                  "Rest",
+                  "Hydration",
+                  "Fever reducers like acetaminophen or ibuprofen"
+              ],
+              "other_treatments": [
+                  "Vitamin A supplementation for children",
+                  "Antibiotics for secondary bacterial infections if present"
+              ]
+          },
+          "cure": "There is no specific cure for measles. The virus must run its course, but symptoms can be managed with supportive care.",
+          "prevention": {
+              "vaccination": "Measles, Mumps, and Rubella (MMR) vaccine is the most effective form of prevention.",
+              "others": [
+                  "Avoiding contact with infected individuals",
+                  "Practicing good hygiene, like frequent handwashing"
+              ]
+          },
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Rabies",
+          "type": "Viral Infection (Zoonotic Disease)",
+          "symptoms": [
+              "fever",
+              "headache",
+              "nausea",
+              "vomiting",
+              "excessive salivation",
+              "muscle spasms",
+              "paralysis",
+              "hydrophobia (fear of water)",
+              "agitation",
+              "confusion"
+          ],
+          "causes": "Rabies is caused by the rabies virus, which is primarily transmitted through the saliva of infected animals via bites or scratches. Common carriers include dogs, bats, raccoons, foxes, and skunks.",
+          "treatment": {
+              "medications": [
+                  "Rabies Immune Globulin (RIG)",
+                  "Series of rabies vaccinations"
+              ],
+              "supportive_care": [
+                  "Wound care with thorough cleaning",
+                  "Sedatives and muscle relaxants for agitation and spasms in advanced cases"
+              ],
+              "procedures": [
+                  "Post-exposure prophylaxis (PEP) which includes vaccination and immune globulin"
+              ]
+          },
+          "cure": "Once symptoms appear, rabies is almost always fatal. Early treatment with post-exposure prophylaxis (PEP) can prevent the virus from progressing if administered promptly after exposure.",
+          "prevention": {
+              "vaccination": "Rabies vaccination is available for both pre-exposure (for those at risk) and post-exposure prevention.",
+              "lifestyle_measures": [
+                  "Vaccinate pets and domestic animals",
+                  "Avoid contact with wild animals, especially in regions where rabies is prevalent",
+                  "Seek immediate medical attention after any animal bite or scratch"
+              ]
+          },
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Tetanus",
+          "type": "Bacterial Infection (Clostridium tetani)",
+          "symptoms": [
+              "muscle stiffness",
+              "lockjaw (difficulty opening mouth)",
+              "painful muscle contractions",
+              "difficulty swallowing",
+              "fever"
+          ],
+          "causes": "Caused by the Clostridium tetani bacteria, which enters the body through cuts or wounds, typically from rusty nails or contaminated objects.",
+          "treatment": {
+              "medications": [
+                  "Tetanus immune globulin (TIG)",
+                  "Antibiotics (e.g., metronidazole or penicillin)"
+              ],
+              "supportive_care": [
+                  "Wound care",
+                  "Sedatives to control muscle spasms",
+                  "Mechanical ventilation in severe cases"
+              ],
+              "procedures": [
+                  "Surgical removal of infected tissue"
+              ]
+          },
+          "cure": "There is no cure for tetanus once symptoms start, but supportive treatment can reduce severity. Recovery may take weeks to months.",
+          "prevention": {
+              "vaccination": "Tetanus vaccine (often part of the DTaP/Tdap series) is the most effective prevention.",
+              "lifestyle_measures": [
+                  "Proper wound cleaning",
+                  "Prompt medical attention for deep or dirty wounds"
+              ]
+          },
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Leprosy",
+          "type": "Bacterial Infection (Mycobacterium leprae)",
+          "symptoms": [
+              "skin lesions",
+              "numbness in hands, arms, feet, and legs",
+              "muscle weakness"
+          ],
+          "causes": "Caused by the bacterium Mycobacterium leprae, spread through respiratory droplets or close contact with an untreated infected person.",
+          "treatment": {
+              "medications": [
+                  "Antibiotics (Dapsone, Rifampicin, Clofazimine)"
+              ],
+              "supportive_care": [
+                  "Wound care for skin lesions"
+              ]
+          },
+          "cure": "Leprosy is curable with a multi-drug therapy (MDT) regimen that lasts for 6-12 months.",
+          "prevention": {
+              "vaccination": "No specific vaccine; BCG vaccine offers some protection.",
+              "lifestyle_measures": [
+                  "Avoid prolonged contact with untreated patients."
+              ]
+          },
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Zika virus",
+          "type": "Viral Infection",
+          "symptoms": [
+              "fever",
+              "rash",
+              "joint pain",
+              "conjunctivitis (red eyes)"
+          ],
+          "causes": "Caused by the Zika virus, primarily transmitted through mosquito bites (Aedes species), and can be transmitted sexually or from mother to child.",
+          "treatment": {
+              "supportive_care": [
+                  "Rest",
+                  "Hydration",
+                  "Pain relievers (acetaminophen)"
+              ]
+          },
+          "cure": "No specific cure; treatment focuses on symptom relief.",
+          "prevention": {
+              "vaccination": "No vaccine is available.",
+              "lifestyle_measures": [
+                  "Use insect repellent",
+                  "Wear long-sleeved clothing",
+                  "Avoid areas with mosquito outbreaks"
+              ]
+          },
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Diphtheria",
+          "type": "Bacterial Infection (Corynebacterium diphtheriae)",
+          "symptoms": [
+              "sore throat",
+              "fever",
+              "swollen glands in the neck",
+              "thick gray coating in the throat"
+          ],
+          "causes": "Caused by the bacterium Corynebacterium diphtheriae, spread through respiratory droplets.",
+          "treatment": {
+              "medications": [
+                  "Diphtheria antitoxin",
+                  "Antibiotics (Penicillin or Erythromycin)"
+              ]
+          },
+          "cure": "Treatment with antitoxin and antibiotics can cure diphtheria if caught early.",
+          "prevention": {
+              "vaccination": "Diphtheria vaccine (part of DTaP or Tdap)."
+          },
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Plague (bubonic)",
+          "type": "Bacterial Infection (Yersinia pestis)",
+          "symptoms": [
+              "swollen lymph nodes (buboes)",
+              "fever",
+              "chills",
+              "muscle ache"
+          ],
+          "causes": "Caused by the bacterium Yersinia pestis, typically transmitted through the bite of an infected flea or contact with contaminated fluids.",
+          "treatment": {
+              "medications": [
+                  "Antibiotics (Streptomycin, Gentamicin)"
+              ]
+          },
+          "cure": "Bubonic plague is treatable with antibiotics if administered early.",
+          "prevention": {
+              "vaccination": "No widely available vaccine.",
+              "lifestyle_measures": [
+                  "Avoid contact with wild rodents and their fleas",
+                  "Use insect repellent"
+              ]
+          },
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Rubella (german measles)",
+          "type": "Viral Infection",
+          "symptoms": [
+              "mild fever",
+              "rash",
+              "swollen lymph nodes"
+          ],
+          "causes": "Caused by the rubella virus, spread through respiratory droplets or from mother to fetus during pregnancy.",
+          "treatment": {
+              "supportive_care": [
+                  "Rest",
+                  "Fever reducers"
+              ]
+          },
+          "cure": "There is no specific cure, but symptoms usually resolve on their own.",
+          "prevention": {
+              "vaccination": "MMR vaccine (Measles, Mumps, Rubella)."
+          },
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Mumps",
+          "type": "Viral Infection",
+          "symptoms": [
+              "swollen salivary glands",
+              "fever",
+              "headache",
+              "muscle ache"
+          ],
+          "causes": "Caused by the mumps virus, spread through respiratory droplets or direct contact with an infected person.",
+          "treatment": {
+              "supportive_care": [
+                  "Rest",
+                  "Pain relievers",
+                  "Fluids"
+              ]
+          },
+          "cure": "No specific cure, but the virus typically resolves on its own.",
+          "prevention": {
+              "vaccination": "MMR vaccine."
+          },
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Scarlet fever",
+          "type": "Bacterial Infection (Group A Streptococcus)",
+          "symptoms": [
+              "red rash",
+              "sore throat",
+              "fever",
+              "strawberry tongue"
+          ],
+          "causes": "Caused by a toxin produced by Group A Streptococcus bacteria, spread through respiratory droplets.",
+          "treatment": {
+              "medications": [
+                  "Antibiotics (Penicillin or Amoxicillin)"
+              ]
+          },
+          "cure": "Scarlet fever is curable with antibiotics.",
+          "prevention": {
+              "lifestyle_measures": [
+                  "Good hygiene and handwashing",
+                  "Avoid contact with infected individuals"
+              ]
+          },
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Yellow fever",
+          "type": "Viral Infection",
+          "symptoms": [
+              "fever",
+              "headache",
+              "nausea",
+              "jaundice"
+          ],
+          "causes": "Caused by the yellow fever virus, transmitted through the bite of infected mosquitoes.",
+          "treatment": {
+              "supportive_care": [
+                  "Rest",
+                  "Fluids",
+                  "Pain relievers"
+              ]
+          },
+          "cure": "No specific cure; supportive treatment can help manage symptoms.",
+          "prevention": {
+              "vaccination": "Yellow fever vaccine.",
+              "lifestyle_measures": [
+                  "Use insect repellent",
+                  "Avoid areas with yellow fever outbreaks"
+              ]
+          },
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Smallpox",
+          "type": "Viral Infection (Variola Virus)",
+          "symptoms": [
+              "high fever",
+              "Persistent fatigue",
+              "rash that develops into pus-filled sores"
+          ],
+          "causes": "Caused by the variola virus, spread through direct contact with an infected person or contaminated objects.",
+          "treatment": {
+              "supportive_care": [
+                  "Pain relievers",
+                  "Hydration"
+              ]
+          },
+          "cure": "Smallpox has been eradicated, but there is no specific cure. Vaccination was the primary means of prevention.",
+          "prevention": {
+              "vaccination": "Smallpox vaccine (no longer administered as the disease has been eradicated)."
+          },
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Cholera",
+          "type": "Bacterial Infection (Vibrio cholerae)",
+          "symptoms": [
+              "severe diarrhea",
+              "dehydration",
+              "vomiting"
+          ],
+          "causes": "Caused by the bacterium Vibrio cholerae, typically spread through contaminated water or food.",
+          "treatment": {
+              "medications": [
+                  "Antibiotics in severe cases (Doxycycline, Azithromycin)"
+              ],
+              "supportive_care": [
+                  "Oral rehydration salts (ORS)",
+                  "Intravenous fluids for severe dehydration"
+              ]
+          },
+          "cure": "Cholera is curable with prompt treatment and rehydration.",
+          "prevention": {
+              "vaccination": "Oral cholera vaccine.",
+              "lifestyle_measures": [
+                  "Drinking clean water",
+                  "Proper sanitation"
+              ]
+          },
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      },
+      {
+          "name": "Syphilis",
+          "type": "Bacterial Infection (Treponema pallidum)",
+          "symptoms": [
+              "primary_stage",
+              "secondary_stage",
+              "latent_stage",
+              "tertiary_stage"
+          ],
+          "causes": "Caused by the bacterium Treponema pallidum, primarily spread through sexual contact with an infected person. It can also be passed from mother to baby during pregnancy (congenital syphilis).",
+          "treatment": {
+              "medications": [
+                  "Penicillin injections (Benzathine penicillin G)",
+                  "Alternative antibiotics (Doxycycline or Tetracycline for those allergic to penicillin)"
+              ],
+              "supportive_care": [
+                  "Follow-up blood tests to monitor treatment success",
+                  "Avoid sexual contact until fully treated"
+              ]
+          },
+          "cure": "Syphilis can be cured with appropriate antibiotics, particularly in the early stages. However, damage from the late stages (tertiary syphilis) may be irreversible.",
+          "prevention": {
+              "vaccination": "No vaccine is available for syphilis.",
+              "lifestyle_measures": [
+                  "Practice safe sex (use condoms)",
+                  "Regular STI testing",
+                  "Avoid sexual contact with infected individuals"
+              ]
+          },
+          "risk_factors": "Unknown",
+          "complications": "Unknown",
+          "icd_code": "N/A",
+          "regions_prevalent": "Global"
+      }
+  ]
+}
