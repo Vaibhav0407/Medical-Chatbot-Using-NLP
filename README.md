@@ -97,7 +97,7 @@ Suggestions and pull requests are welcome. Open an issue if you find a bug or ha
 
 ## License
 
-MIT License. See the `LICENSE` file for details.
+MIT License.
 
 ---
 
